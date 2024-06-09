@@ -3,7 +3,7 @@ import "./GithubRepoCard.scss";
 import {Fade} from "react-reveal";
 import {formatFileSizeDisplay} from "../../utils";
 
-export default function GithubRepoCard({repo, isDark}) {
+const GithubRepoCard =({repo, isDark})=> {
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL in ${name} is undefined`);
@@ -93,3 +93,5 @@ export default function GithubRepoCard({repo, isDark}) {
     </Fade>
   );
 }
+
+export default GithubRepoCard

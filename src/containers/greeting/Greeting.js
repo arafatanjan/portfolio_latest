@@ -9,7 +9,7 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Greeting() {
+const Greeting =()=> {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
@@ -66,3 +66,5 @@ export default function Greeting() {
     </Fade>
   );
 }
+
+export default Greeting;

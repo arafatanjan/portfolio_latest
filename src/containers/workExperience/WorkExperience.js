@@ -5,7 +5,7 @@ import {workExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function WorkExperience() {
+const WorkExperience =()=> {
   const {isDark} = useContext(StyleContext);
   if (workExperiences.display) {
     return (
@@ -40,3 +40,5 @@ export default function WorkExperience() {
   }
   return null;
 }
+
+export default  WorkExperience

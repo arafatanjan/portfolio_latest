@@ -7,7 +7,7 @@ const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
   import("../../components/githubProfileCard/GithubProfileCard")
 );
-export default function Profile() {
+const Profile=() => {
   const [prof, setrepo] = useState([]);
   function setProfileFunction(array) {
     setrepo(array);
@@ -50,3 +50,4 @@ export default function Profile() {
     return <Contact />;
   }
 }
+export default Profile;

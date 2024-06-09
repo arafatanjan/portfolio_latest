@@ -4,7 +4,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import {greeting, splashScreen} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function SplashScreen() {
+const SplashScreen=()=> {
   const {isDark} = useContext(StyleContext);
   return (
     <div className={isDark ? "dark-mode splash-container" : "splash-container"}>
@@ -19,3 +19,5 @@ export default function SplashScreen() {
     </div>
   );
 }
+
+export default SplashScreen

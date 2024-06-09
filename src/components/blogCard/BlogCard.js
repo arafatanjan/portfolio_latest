@@ -1,7 +1,7 @@
 import React from "react";
 import "./BlogCard.scss";
 
-export default function BlogCard({blog, isDark}) {
+const BlogCard = ({blog, isDark}) => {
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL for ${name} not found`);
@@ -34,3 +34,5 @@ export default function BlogCard({blog, isDark}) {
     </div>
   );
 }
+
+export default BlogCard;

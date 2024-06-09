@@ -4,7 +4,7 @@ import {podcastSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Podcast() {
+const Podcast =()=> {
   const {isDark} = useContext(StyleContext);
 
   if (!podcastSection)
@@ -52,3 +52,5 @@ export default function Podcast() {
     </Fade>
   );
 }
+
+export default  Podcast

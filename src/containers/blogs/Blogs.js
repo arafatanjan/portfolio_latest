@@ -4,9 +4,11 @@ import BlogCard from "../../components/blogCard/BlogCard";
 import {blogSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-export default function Blogs() {
+
+const Blogs= ()=> {
   const {isDark} = useContext(StyleContext);
   const [mediumBlogs, setMediumBlogs] = useState([]);
+  
   function setMediumBlogsFunction(array) {
     setMediumBlogs(array);
   }
@@ -96,3 +98,5 @@ export default function Blogs() {
     </Fade>
   );
 }
+
+export default Blogs;

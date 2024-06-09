@@ -7,7 +7,7 @@ import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Contact() {
+const Contact=()=> {
   const {isDark} = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
@@ -67,3 +67,5 @@ export default function Contact() {
     </Fade>
   );
 }
+
+export default Contact;

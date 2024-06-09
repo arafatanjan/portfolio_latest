@@ -7,7 +7,7 @@ import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Skills() {
+const Skills=()=> {
   const {isDark} = useContext(StyleContext);
   if (!skillsSection.display) {
     return null;
@@ -66,3 +66,5 @@ export default function Skills() {
     </div>
   );
 }
+
+export default Skills;

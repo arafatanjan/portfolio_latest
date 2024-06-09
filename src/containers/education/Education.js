@@ -3,7 +3,7 @@ import "./Education.scss";
 import EducationCard from "../../components/educationCard/EducationCard";
 import {educationInfo} from "../../portfolio";
 
-export default function Education() {
+const Education=()=> {
   if (educationInfo.display) {
     return (
       <div className="education-section" id="education">
@@ -18,3 +18,5 @@ export default function Education() {
   }
   return null;
 }
+
+export default Education;

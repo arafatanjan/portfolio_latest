@@ -1,7 +1,7 @@
 import React from "react";
 import "./TalkCard.scss";
 
-export default function TalkCard({talkDetails}) {
+const TalkCard=({talkDetails})=> {
   return (
     <div>
       <div className="container">
@@ -27,3 +27,5 @@ export default function TalkCard({talkDetails}) {
     </div>
   );
 }
+
+export default  TalkCard

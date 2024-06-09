@@ -4,7 +4,7 @@ import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function StartupProject() {
+const StartupProject=()=> {
   function openUrlInNewTab(url) {
     if (!url) {
       return;
@@ -92,3 +92,5 @@ export default function StartupProject() {
     </Fade>
   );
 }
+
+export default StartupProject;

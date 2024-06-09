@@ -4,7 +4,8 @@ import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
-export default function Projects() {
+
+const Projects=()=> {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
   );
@@ -72,3 +73,4 @@ export default function Projects() {
     return <FailedLoading />;
   }
 }
+export default Projects;

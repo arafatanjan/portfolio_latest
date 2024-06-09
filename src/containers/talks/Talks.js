@@ -5,7 +5,7 @@ import {talkSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Talks() {
+const Talks =()=> {
   const {isDark} = useContext(StyleContext);
   if (!talkSection.display) {
     return null;
@@ -44,3 +44,4 @@ export default function Talks() {
     </Fade>
   );
 }
+export default  Talks

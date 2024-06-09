@@ -2,7 +2,7 @@ import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
 
-export default function socialMedia() {
+const socialMedia = ()=> {
   if (!socialMediaLinks.display) {
     return null;
   }
@@ -129,4 +129,5 @@ export default function socialMedia() {
       ) : null}
     </div>
   );
-}
+};
+export default socialMedia;

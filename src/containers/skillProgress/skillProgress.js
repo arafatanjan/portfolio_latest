@@ -5,7 +5,7 @@ import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
-export default function StackProgress() {
+const StackProgress=()=> {
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
@@ -43,3 +43,5 @@ export default function StackProgress() {
   }
   return null;
 }
+
+export default  StackProgress
