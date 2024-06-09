@@ -284,7 +284,7 @@ const achievementSection = {
       title: "IBCS-Primax Software (Bangladesh) Ltd",
       subtitle:
         "Oracle Database 12c: Introduction toSQL.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/prime.png"),
       imageAlt: "BCS-Primax Software (Bangladesh) Ltd",
       footerLink: [
         {
