@@ -45,7 +45,7 @@ const Greeting =()=> {
                     download="Resume.pdf"
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
+                   <Button text="Download my resume" />
                   </a>
                 )}
               </div>
