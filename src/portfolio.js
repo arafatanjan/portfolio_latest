@@ -181,24 +181,26 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+
     {
-      role: "Software Engineer",
+      role: "Full Stack Developer",
+      company: "Ancova IT",
+      companylogo: require("./assets/images/op.jpg"),
+      date: "April 2024 – present",
+      desc: "Responsibilities: Web development in JavaScript"
+    },
+    {
+      role: "Officer",
       company: "Standard Bank Limited",
       companylogo: require("./assets/images/standard.png"),
-      date: " 2019 – present",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: " 2019 – 2024",
+       desc: "Responsibilities: Performing queries in SQL And UAT of CBS",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     },
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
+    
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -220,8 +222,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Edubridgebd",
-  //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/classroom.png"),
@@ -235,17 +237,17 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   projectName: "Nextu",
-    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "http://nextu.se/"
-    //     }
-    //   ]
-    // }
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "E-commerce site",
+      projectDesc: "Retail business solution",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://dotpot-frontend.vercel.app"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
